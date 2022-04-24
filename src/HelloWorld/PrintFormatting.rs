@@ -20,5 +20,5 @@ fn main() {
     println!("{var:>width$}\n", var="Hi", width=6);
 
     // print number with padding \t
-    println!("0x{var:0>width$}", var=4141, width=8);
+    println!("{:#010x}", 1337);
 }
