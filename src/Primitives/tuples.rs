@@ -1,3 +1,9 @@
+use std::fmt;
+
+impl fmt::Display for Tuple {
+
+}
+
 fn main() {
     let mixed_type_tuple = (1u8, 2u16, 3u32, 4u64,
                             -1i8, -2i16, -3i32, -4i64,
